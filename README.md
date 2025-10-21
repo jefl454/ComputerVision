@@ -92,17 +92,18 @@ print(f"Predicted class: {prediction.item()}")
 ## 📈 Training Details
 
 - **Optimizer**: Adam / SGD
-- **Learning Rate**: [your_lr]
-- **Batch Size**: [your_batch_size]
-- **Epochs**: [num_epochs]
-- **Loss Function**: CrossEntropyLoss
-- **Data Augmentation**: Random crops, flips, color jittering
+- **Learning Rate**: [0.0003]
+- **Batch Size**: [32]
+- **Epochs**: [20]
+- **Loss Function**: [CrossEntropyLoss]
+- **Data Augmentation**:[RandomHorizontalFlip]
 
 ## 📊 Results
 
-- **Training Accuracy**: [your_accuracy]%
-- **Validation Accuracy**: [your_accuracy]%
-- **Test Accuracy**: [your_accuracy]%
+- **Final Training Accuracy**: 99.71%
+- **Best Test Accuracy**: 87.81%
+- **Total Epochs**: 17/20 (Early stopping)
+- **Best Model Saved at**: Epoch 12
 
 [Add training curves, confusion matrix if available]
 
