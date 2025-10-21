@@ -105,7 +105,7 @@ print(f"Predicted class: {prediction.item()}")
 - **Total Epochs**: 17/20 (Early stopping)
 - **Best Model Saved at**: Epoch 12
 
-[Add training curves, confusion matrix if available]
+
 
 ## 📁 Project Structure
 ```
