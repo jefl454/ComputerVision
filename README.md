@@ -65,7 +65,6 @@ print(f"Predicted class: {prediction.item()}")
 - **Total images**: ~40,000 images
 
 ### Food Categories
-[List your 40 selected food classes here, e.g.,]
 - Apple pie
 - Pizza
 - Hamburger
@@ -83,7 +82,6 @@ print(f"Predicted class: {prediction.item()}")
 
 ## 🏗️ Model Architecture
 
-[Specify your architecture, e.g.,]
 - Base Model: ResNet-50 / VGG16 / Custom CNN
 - Input Size: 224x224x3
 - Output: 40 classes
@@ -91,7 +89,7 @@ print(f"Predicted class: {prediction.item()}")
 
 ## 📈 Training Details
 
-- **Optimizer**: Adam / SGD
+- **Optimizer**: Adam 
 - **Learning Rate**: [0.0003]
 - **Batch Size**: [32]
 - **Epochs**: [20]
