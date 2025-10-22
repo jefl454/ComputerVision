@@ -15,10 +15,11 @@ This project builds a deep learning model to classify 40 different types of food
 - Efficient training on reduced dataset
 
 ## 📦 Installation
-```bash
+```
+bash
 # Clone repository
-git clone https://github.com/jeff454/ComputerVision.git
-cd ComputerVision
+git clone https://github.com/jeff454/FoodClassifier.git
+cd FoodClassifier
 
 # Install dependencies
 pip install torch torchvision pillow numpy matplotlib
